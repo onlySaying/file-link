@@ -1,0 +1,175 @@
+{
+  "contractName": "storageBuying",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/fileBuying.sol\":\"storageBuying\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/fileBuying.sol\":{\"keccak256\":\"0xfa82ba26571790d5ccc535f90a0f16e543fca7d3d8402a893a1dafc7964294f6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6020c4b5facfe6a0c56dc6ca0f5fc468f2892b693ad3b551be8b956b31a9a761\",\"dweb:/ipfs/QmQ5Jzrh53E9sNkZ4yLxTxgT8fbSAG1SnsuFyZW3Km924E\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122024e6a73452d4027479b61efb43cf9decdbe315a7bdd36abe2a271a90e4f35ee964736f6c63430008090033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122024e6a73452d4027479b61efb43cf9decdbe315a7bdd36abe2a271a90e4f35ee964736f6c63430008090033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "69:847:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "69:847:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.9.0;\r\n\r\ncontract storageBuying { \r\n   enum STATE {Activate, Suspended}\r\n   \r\n   /*address public owner;\r\n   ERC223 public token;\r\n   STATE public State;\r\n   \r\n   function TokenSale(address tokenContractAddress) public\r\n   {\r\n       owner = msg.sender;\r\n       token = ERC20(tokenContractAddress);\r\n       State = STATE.Activate; \r\n   }\r\n   \r\n   function buyFile() payable public {\r\n       require(State == STATE.Activate);\r\n       token.transfer(msg.sender, msg.value);\r\n   }\r\n   \r\n   function suspend() public \r\n   {\r\n       require(msg.sender == owner);\r\n       State = STATE.Suspended;\r\n   }\r\n   \r\n   function activate () public\r\n   {\r\n       require(msg.sender == owner);\r\n       State = STATE.Activate;\r\n   }\r\n   \r\n   function withdraw() public\r\n   {\r\n       require(msg.sender = owner);\r\n       owner.transfer(address(this).balance);\r\n   }\r\n   */\r\n}",
+  "sourcePath": "C:\\Users\\c9606\\OneDrive\\바탕 화면\\file-link\\contracts\\fileBuying.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/fileBuying.sol",
+    "exportedSymbols": {
+      "storageBuying": [
+        38
+      ]
+    },
+    "id": 39,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "storageBuying",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 38,
+        "linearizedBaseContracts": [
+          38
+        ],
+        "name": "storageBuying",
+        "nameLocation": "78:13:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "storageBuying.STATE",
+            "id": 37,
+            "members": [
+              {
+                "id": 35,
+                "name": "Activate",
+                "nameLocation": "111:8:1",
+                "nodeType": "EnumValue",
+                "src": "111:8:1"
+              },
+              {
+                "id": 36,
+                "name": "Suspended",
+                "nameLocation": "121:9:1",
+                "nodeType": "EnumValue",
+                "src": "121:9:1"
+              }
+            ],
+            "name": "STATE",
+            "nameLocation": "104:5:1",
+            "nodeType": "EnumDefinition",
+            "src": "99:32:1"
+          }
+        ],
+        "scope": 39,
+        "src": "69:847:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:883:1"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/fileBuying.sol",
+    "exportedSymbols": {
+      "storageBuying": [
+        38
+      ]
+    },
+    "id": 39,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "storageBuying",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 38,
+        "linearizedBaseContracts": [
+          38
+        ],
+        "name": "storageBuying",
+        "nameLocation": "78:13:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "storageBuying.STATE",
+            "id": 37,
+            "members": [
+              {
+                "id": 35,
+                "name": "Activate",
+                "nameLocation": "111:8:1",
+                "nodeType": "EnumValue",
+                "src": "111:8:1"
+              },
+              {
+                "id": 36,
+                "name": "Suspended",
+                "nameLocation": "121:9:1",
+                "nodeType": "EnumValue",
+                "src": "121:9:1"
+              }
+            ],
+            "name": "STATE",
+            "nameLocation": "104:5:1",
+            "nodeType": "EnumDefinition",
+            "src": "99:32:1"
+          }
+        ],
+        "scope": 39,
+        "src": "69:847:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:883:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.9+commit.e5eed63a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-12-06T13:00:06.834Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
